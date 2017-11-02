@@ -18,6 +18,7 @@ Route::post('login','index/index/login');
 Route::rule('user/list','index/user/index');
 Route::rule('admin/index','index/admin/index');
 
+
 return [
     '__pattern__' => [
         'name' => '\w+',
